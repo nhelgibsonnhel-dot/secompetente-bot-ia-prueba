@@ -1,4 +1,4 @@
-const apiKey = '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';
+const apiKey = process.env.GROQ_API_KEY || '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';  // fallback para pruebas locales
 
 // URL de tu Google Apps Script (cámbiala por la tuya real)
 const urlSheets = 'https://script.google.com/macros/s/AKfycbwc8Qvwb01ct_dxWDSIo-CCekoEOPfXZKlJkiMM_vNtpO3k6QgLiaU8ONfNupcbZsq5dQ/exec';  // ← ¡PEGA AQUÍ TU URL!
